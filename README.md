@@ -1,7 +1,7 @@
 # Angular-on-Github-Pages
-How to publish an Angular App into Github Pages
+## How to publish an Angular App into Github Pages
 
-ng new fxstreetEditorsLayoutGuideline --routing --skipTests --verbose
+    ng new fxstreetEditorsLayoutGuideline --routing --skipTests --verbose
 
 index.html change this
 
@@ -11,6 +11,6 @@ angular.json change this
 
     "outputPath": "docs",
 
-ng build --prod
+    ng build --prod
 
 inside docs folder duplicate  index.html  to 404.html
