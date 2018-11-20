@@ -24,6 +24,14 @@ publish from docs folder
 ### Generate Home Component and add it to router
 
     ng g c home
+    
+    const routes: Routes = [
+    
+        { path: 'home', component: HomeComponent },
+        
+         { path: '', pathMatch: 'full', redirectTo: 'home' }
+         
+    ];
 
 ### Generate module(s) (section(s)) that contains component(s) (page(s)) with routing
 
