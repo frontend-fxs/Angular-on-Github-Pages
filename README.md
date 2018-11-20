@@ -21,6 +21,10 @@ Push to github
 
 publish from docs folder
 
+### Generate Home Component and add it to router
+
+    ng g c home
+
 ### Generate module(s) (section(s)) that contains component(s) (page(s)) with routing
 
     ng g m utilities --routing    
