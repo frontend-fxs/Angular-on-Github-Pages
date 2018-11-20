@@ -36,7 +36,7 @@ publish from docs folder
     ];
  And import homeComponent into the  header of  app-routing.module.ts
  
- ### Add router links into the app menu
+ ### Add router links into the app menu app.components.html
  
     <a [routerLink]="['/home']">Home</a>
 
