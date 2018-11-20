@@ -29,12 +29,16 @@ publish from docs folder
     
     const routes: Routes = [
     
-        { path: 'home', component: HomeComponent },
+        { path: '/home', component: HomeComponent },
         
          { path: '', pathMatch: 'full', redirectTo: 'home' }
          
     ];
  And import homeComponent into the  header of  app-routing.module.ts
+ 
+ ### Add router links into the app menu
+ 
+    <a [routerLink]="['/home']">Home</a>
 
 ### Generate module(s) (section(s)) that contains component(s) (page(s)) with routing
 
