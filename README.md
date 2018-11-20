@@ -11,7 +11,7 @@ angular.json change this
 
     "outputPath": "docs",
    
-launch
+build
 
     ng build --prod
 
