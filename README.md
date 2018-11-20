@@ -10,6 +10,8 @@ index.html change this
 angular.json change this
 
     "outputPath": "docs",
+   
+launch
 
     ng build --prod
 
