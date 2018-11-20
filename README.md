@@ -21,9 +21,11 @@ Push to github
 
 publish from docs folder
 
-### Generate Home Component and add it to router
+### Generate Home Component
 
     ng g c home
+    
+### Add HomeComponent to router
     
     const routes: Routes = [
     
@@ -32,6 +34,7 @@ publish from docs folder
          { path: '', pathMatch: 'full', redirectTo: 'home' }
          
     ];
+ And import homeComponent in header in app-routing.module.ts
 
 ### Generate module(s) (section(s)) that contains component(s) (page(s)) with routing
 
