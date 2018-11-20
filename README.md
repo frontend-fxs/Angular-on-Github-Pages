@@ -42,4 +42,4 @@ publish from docs folder
 
 ### Generate module(s) (section(s)) that contains component(s) (page(s)) with routing
 
-    ng g m utilities --routing    
+    ng g m utilities --routing   -m 
