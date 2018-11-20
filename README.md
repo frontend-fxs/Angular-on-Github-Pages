@@ -34,7 +34,7 @@ publish from docs folder
          { path: '', pathMatch: 'full', redirectTo: 'home' }
          
     ];
- And import homeComponent in header in app-routing.module.ts
+ And import homeComponent into the  header of  app-routing.module.ts
 
 ### Generate module(s) (section(s)) that contains component(s) (page(s)) with routing
 
