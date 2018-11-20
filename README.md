@@ -1,5 +1,5 @@
 # Angular-on-Github-Pages
-## How to publish an Angular App into Github Pages
+## How to publish an Angular App into Github Pages using angular CLI
 
     ng new fxstreetEditorsLayoutGuideline --routing --skipTests --verbose
 
