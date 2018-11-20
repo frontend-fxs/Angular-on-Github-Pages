@@ -16,3 +16,5 @@ build
     ng build --prod
 
 inside docs folder duplicate  index.html  to 404.html
+Push to github
+publish from docs folder
