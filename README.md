@@ -20,3 +20,7 @@ inside docs folder duplicate  index.html  to 404.html
 Push to github
 
 publish from docs folder
+
+### Generate module(s) (section(s)) that contains components (page(s)) with routing
+
+    ng g m utilities --routing    
